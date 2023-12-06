@@ -1,11 +1,12 @@
 import com.advcode.days.Day5
+import com.advcode.days.Day6
 import com.advcode.days.Solution
 import java.io.File
 
 fun main() {
 
     val resPath = File("src/main/resources").absolutePath
-    val solution: Solution = Day5(resPath)
+    val solution: Solution = Day6(resPath)
 
     println("Part 1")
     println("Test File Solution:")
